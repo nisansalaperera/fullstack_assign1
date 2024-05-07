@@ -8,7 +8,7 @@ except ValueError:
     sys.exit(1)
 
 try:
-    index2=int(input("Enter 2nd Index;"))
+    index2=int(input("Enter 2nd Index:"))
 except ValueError:
     print("Please input an integer for the second index")
     sys.exit(1)
